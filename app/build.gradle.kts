@@ -7,6 +7,9 @@ android {
     namespace = "com.helosantosdesousa.calculadoraimc"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
     defaultConfig {
         applicationId = "com.helosantosdesousa.calculadoraimc"
         minSdk = 24
